@@ -11,7 +11,7 @@ USER root
 #ARG LIBNVINFER=7.2.2 LIBNVINFER_MAJOR_VERSION=7 CUDA_VERSION=11.8
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV DEBCONF_NOWARNINGS="yes"
+#ENV DEBCONF_NOWARNINGS="yes"
 
 # Update package lists and install necessary packages
 RUN apt-get update && \
