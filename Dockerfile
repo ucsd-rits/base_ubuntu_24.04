@@ -29,4 +29,4 @@ WORKDIR /app
 # EXPOSE 8080
 
 # Define the command to run when the container starts
-# CMD ["/bin/bash"]
+CMD ["/bin/bash"]
