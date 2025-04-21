@@ -1,4 +1,4 @@
-FROM ubuntu:noble
+FROM ubuntu:24.04
 
 # Metadata
 LABEL maintainer="UC San Diego Research IT Services Ian Kaufman <ikaufman@ucsd.edu>"
