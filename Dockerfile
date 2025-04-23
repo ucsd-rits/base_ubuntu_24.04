@@ -16,7 +16,7 @@ ENV DEBCONF_NOWARNINGS="yes"
 # Update package lists and install necessary packages
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    curl wget vim git htop \
+    curl wget vim git htop unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up working directory
